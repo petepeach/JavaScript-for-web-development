@@ -47,6 +47,7 @@ function sortBlogs(element){
         }
         return compareDate
     })
+    createBlogHTML(sortedBlogs)
 }
   
 async function main(){
