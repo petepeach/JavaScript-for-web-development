@@ -18,7 +18,7 @@ function createBlogHTML(blogs){
             ${blog.description}
           </p>
           <p>At ${blog.publishDate}</p>
-          <a href="blogs/test.html">Read more</a>
+          <a href=${blog.url}>Read more</a>
         </div>
         </div>
         `
@@ -36,6 +36,17 @@ setTimeout(() => {
     })
     createBlogHTML(filteredBlogs)
 }, 2000);
+}
+
+function sortBlogs(element){
+    const sortedBlogs = blogsRawData.sort(function(blogA, blogB){
+        let compareDate = new Date(blogA.publishDate) - new Date(blogB.publishDate)
+
+        if(element.value === 'desc'){
+            compareDate = new Date(blogB.publishDate) - new Date(blogA.publishDate)
+        }
+        return compareDate
+    })
 }
   
 async function main(){

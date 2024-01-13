@@ -3,13 +3,15 @@
         "title" : "Forward Integration Executive",
         "description" : "Nobis quo est corporis totam dolores. Rerum quam autem debitis dolores sunt et quis occaecati. Nam dolorem dolores.",
         "publishDate" : "4/1/2024",
-        "imageUrl" : "https://fastly.picsum.photos/id/2/300/200.jpg?hmac=19a921SJWDsZIU79S0Pi_xIKrXkOV3qT31RFX6Vp-eU"
+        "imageUrl" : "https://fastly.picsum.photos/id/2/300/200.jpg?hmac=19a921SJWDsZIU79S0Pi_xIKrXkOV3qT31RFX6Vp-eU",
+        "url" : "/src/blogs/1.html"
     },
     {
         "title" : "skooldio2",
         "description" : "Hello TBC",
-        "publishDate" : "23/1/2024",
-        "imageUrl" : "https://fastly.picsum.photos/id/756/300/200.jpg?hmac=ppa_nag_8FNw-XRBiUN1cfftQ63aZJXiGlM_qkz5eGc"
+        "publishDate" : "1/23/2024",
+        "imageUrl" : "https://fastly.picsum.photos/id/756/300/200.jpg?hmac=ppa_nag_8FNw-XRBiUN1cfftQ63aZJXiGlM_qkz5eGc",
+        "url" : "/src/blogs/2.html"
     }
 
 ]
